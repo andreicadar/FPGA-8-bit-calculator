@@ -1,0 +1,7 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: C:/Users/Andrei/Desktop/Calculator/Calculator/src/main.vhd" 
+MESSAGE "Compile Entity "calculator"" 
+MESSAGE "Compile Architecture "calculator_a" of Entity "calculator"" 
+MESSAGE "Compile Entity "tb"" 
+MESSAGE "Compile Architecture "tb_a" of Entity "tb"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]" 

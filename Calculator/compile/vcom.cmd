@@ -1,0 +1,1 @@
+-w -erf C:/Users/Andrei/Desktop/Calculator/Calculator/compile/Calculator.erf -d C:/Users/Andrei/Desktop/Calculator/Calculator/compile -s C:/Users/Andrei/Desktop/Calculator/library.cfg -j C:/Users/Andrei/Desktop/Calculator/Calculator/projlib.cfg -work Calculator -O3 -e 100 -work Calculator -2002 C:/Users/Andrei/Desktop/Calculator/Calculator/src/main.vhd 

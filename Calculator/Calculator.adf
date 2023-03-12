@@ -1,0 +1,109 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=Calculator
+[Library]
+Calculator=.\Calculator\Calculator.lib
+[$LibMap$]
+Calculator=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+[IMPLEMENTATION]
+UCF=
+[Files]
+/bit_adder_1.vhd=-1
+/bit_adder_8.vhd=-1
+/bit_subtractor_1.vhd=-1
+/bit_subtractor_8.vhd=-1
+/multiplication.vhd=-1
+/division.vhd=-1
+/ChooseOperationAndReturnRes.vhd=-1
+/mux41_1bit.vhd=-1
+/mux41_8bit.vhd=-1
+/mux81_4bit.vhd=-1
+/mux81_8BIT.vhd=-1
+/counter_1_sec.vhd=-1
+/counter_60_HZ.vhd=-1
+/input_number.vhd=-1
+/main.vhd=-1
+/BinaryToDec.vhd=-1
+/DecToBinary.vhd=-1
+/display_decoder.vhd=-1
+/determine_sign_value_in_hex.vhd=-1
+/change_state.vhd=-1
+/debouncer.vhd=-1
+/D_FLIP_FLOP_8bit.vhd=-1
+[Files.Data]
+.\src\bit_adder_1.vhd=VHDL Source Code
+.\src\bit_adder_8.vhd=VHDL Source Code
+.\src\bit_subtractor_1.vhd=VHDL Source Code
+.\src\bit_subtractor_8.vhd=VHDL Source Code
+.\src\multiplication.vhd=VHDL Source Code
+.\src\division.vhd=VHDL Source Code
+.\src\ChooseOperationAndReturnRes.vhd=VHDL Source Code
+.\src\mux41_1bit.vhd=VHDL Source Code
+.\src\mux41_8bit.vhd=VHDL Source Code
+.\src\mux81_4bit.vhd=VHDL Source Code
+.\src\mux81_8BIT.vhd=VHDL Source Code
+.\src\counter_1_sec.vhd=VHDL Source Code
+.\src\counter_60_HZ.vhd=VHDL Source Code
+.\src\input_number.vhd=VHDL Source Code
+.\src\main.vhd=VHDL Source Code
+.\src\BinaryToDec.vhd=VHDL Source Code
+.\src\DecToBinary.vhd=VHDL Source Code
+.\src\display_decoder.vhd=VHDL Source Code
+.\src\determine_sign_value_in_hex.vhd=VHDL Source Code
+.\src\change_state.vhd=VHDL Source Code
+.\src\debouncer.vhd=VHDL Source Code
+.\src\D_FLIP_FLOP_8bit.vhd=VHDL Source Code
+[folders]
+name0=ALINT-PRO Workspaces
+directory0=c:\Users\Andrei\Desktop\Calculator\Calculator\
+extension0=alintws
+name1=Coverage Databases
+directory1=c:\Users\Andrei\Desktop\Calculator\Calculator\
+extension1=acdb
+name2=Dll Libraries
+directory2=c:\Users\Andrei\Desktop\Calculator\Calculator\
+extension2=dll
+name3=Event Lists
+directory3=c:\Users\Andrei\Desktop\Calculator\Calculator\
+extension3=lst
+name4=HTML Files
+directory4=c:\Users\Andrei\Desktop\Calculator\Calculator\
+extension4=htm;html
+name5=Log Files
+directory5=c:\Users\Andrei\Desktop\Calculator\Calculator\
+extension5=log;htm;xml;txt
+name6=Matlab/Simulink Files
+directory6=c:\Users\Andrei\Desktop\Calculator\
+extension6=m;mdl;slx
+name7=Memory Files
+directory7=c:\Users\Andrei\Desktop\Calculator\Calculator\
+extension7=mem;mif;hex
+name8=PDF Files
+directory8=c:\Users\Andrei\Desktop\Calculator\Calculator\
+extension8=pdf
+name9=Profiler Databases
+directory9=c:\Users\Andrei\Desktop\Calculator\Calculator\
+extension9=tbp
+name10=Script Files
+directory10=c:\Users\Andrei\Desktop\Calculator\Calculator\
+extension10=do;tcl;pl
+name11=Waveform Files
+directory11=c:\Users\Andrei\Desktop\Calculator\Calculator\
+extension11=asdb;awc;asdbc;asdbe
+[HierarchyViewer]
+HierarchyInformation=tb|tb_a|0
+ShowHide=ShowTopLevel
+Selected=

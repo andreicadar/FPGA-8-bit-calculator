@@ -1,0 +1,57 @@
+Active-HDL 13.0.376.8320 2022-05-26 15:09:05
+
+Elaboration top modules:
+Architecture                  tb_a(tb)
+
+
+----------------------------------------------------------------------------------------------------------------------------------
+Entity                      | Architecture                  | Library    | Info | Compiler Version          | Compilation Options
+----------------------------------------------------------------------------------------------------------------------------------
+tb                          | tb_a                          | calculator |      | 13.0.376.8320 (Windows64) | -O3
+calculator                  | calculator_a                  | calculator |      | 13.0.376.8320 (Windows64) | -O3
+counter_60_HZ               | counter_60_HZ_a               | calculator |      | 13.0.376.8320 (Windows64) | -O3
+counter_1_sec               | counter_1_sec_a               | calculator |      | 13.0.376.8320 (Windows64) | -O3
+mux81_8BIT                  | mux81_8BIT_a                  | calculator |      | 13.0.376.8320 (Windows64) | -O3
+mux81_4BIT                  | mux81_4BIT_a                  | calculator |      | 13.0.376.8320 (Windows64) | -O3
+display_decoder             | display_decoder_a             | calculator |      | 13.0.376.8320 (Windows64) | -O3
+determine_sign_value_in_hex | determine_sign_value_in_hex_a | calculator |      | 13.0.376.8320 (Windows64) | -O3
+input_number                | input_number_a                | calculator |      | 13.0.376.8320 (Windows64) | -O3
+binaryToDec                 | binaryToDec_a                 | calculator |      | 13.0.376.8320 (Windows64) | -O3
+D_FLIP_FLOP_8bit            | D_FLIP_FLOP_8bit_a            | calculator |      | 13.0.376.8320 (Windows64) | -O3
+mux41_8BIT                  | mux41_8BIT_a                  | calculator |      | 13.0.376.8320 (Windows64) | -O3
+DecToBinary                 | DecToBinary_a                 | calculator |      | 13.0.376.8320 (Windows64) | -O3
+change_state                | change_state_a                | calculator |      | 13.0.376.8320 (Windows64) | -O3
+ChooseOperationAndReturnRes | ChooseOperationAndReturnRes_a | calculator |      | 13.0.376.8320 (Windows64) | -O3
+mux41_1BIT                  | mux41_1BIT_a                  | calculator |      | 13.0.376.8320 (Windows64) | -O3
+bit_adder_8                 | bit_adder_8_a                 | calculator |      | 13.0.376.8320 (Windows64) | -O3
+bit_subtractor_8            | bit_subtractor_8_a            | calculator |      | 13.0.376.8320 (Windows64) | -O3
+multiplication              | multiplication_a              | calculator |      | 13.0.376.8320 (Windows64) | -O3
+division                    | division_a                    | calculator |      | 13.0.376.8320 (Windows64) | -O3
+bit_adder_1                 | bit_adder_1_a                 | calculator |      | 13.0.376.8320 (Windows64) | -O3
+bit_subtractor_1            | bit_subtractor_1_a            | calculator |      | 13.0.376.8320 (Windows64) | -O3
+----------------------------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------------------------
+VHDL Package                                                | Library    | Info | Compiler Version          | Compilation Options
+----------------------------------------------------------------------------------------------------------------------------------
+standard                                                    | std        |      |                           | <unavailable>
+TEXTIO                                                      | std        |      | 13.0.376.8320 (Windows64) |  -2019
+std_logic_1164                                              | ieee       |      | 13.0.376.8320 (Windows64) |  -2008
+std_logic_arith                                             | ieee       |      | 13.0.376.8320 (Windows64) | <unavailable>
+STD_LOGIC_UNSIGNED                                          | ieee       |      | 13.0.376.8320 (Windows64) | <unavailable>
+NUMERIC_STD                                                 | ieee       |      | 13.0.376.8320 (Windows64) |  -2008
+----------------------------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------------------------
+Library                                                     | Comment
+----------------------------------------------------------------------------------------------------------------------------------
+calculator                                                  | None
+ieee                                                        | Standard IEEE packages library
+std                                                         | Standard VHDL library
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r +m+tb tb tb_a
+
+
+The performance of simulation is reduced. Version Student Edition
